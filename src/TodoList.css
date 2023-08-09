@@ -1,0 +1,27 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+li label {
+  display: flex;
+  width: 200px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+li input {
+  margin-right: 10px;
+}
+
+li input:checked + span {
+  color: grey;
+  text-decoration: line-through;
+}
+
+li button {
+  background-color: tomato;
+  color: white;
+}
